@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author Varun Vaibhav Jha
  *
  */
-public class ReverseNumber {
+public class varunvjha_ReverseNumber {
 
 	/**
 	 * @param args
