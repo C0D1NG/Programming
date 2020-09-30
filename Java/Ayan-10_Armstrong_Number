@@ -1,0 +1,32 @@
+import java.io.InputStreamReader;
+
+class Ayan10_Armstorng_Number {
+
+    public static void main(String[] args) throws IOException {
+        // using BufferedReader class to take efficiant input
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String[] input = br.readLine().split(" ");
+        //take input of an integer
+        int number = Integer.parseInt(input[0]);
+        int ans=0;
+        int lastDigit;
+        int temp=number;
+
+        temp=number;
+        while(number>0)
+        {
+            //taking last digit from the number
+            lastDigit=number%10;
+            //replace the number without last digit
+            number=number/10;
+            //making a new number
+            ans=ans+(lastDigit*lastDigit*lastDigit);
+        }
+        //if number equals new number (ans) this is a armstrong number
+        if(temp==ans)
+            System.out.println(number + " is a Armstrong Number");
+        else
+            System.out.println(number + " is not a Armstrong Number");
+    }
+
+}
