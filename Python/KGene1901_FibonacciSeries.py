@@ -38,6 +38,3 @@ def fibIterative(n):
             prev, current = current, result
         
         return result
-
-print(fibIterative(100))
-
