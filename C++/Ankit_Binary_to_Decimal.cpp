@@ -1,3 +1,6 @@
+//You write codes nicely with comments.
+
+
 // C++ program to convert binary to decimal 
 #include <iostream> 
 using namespace std; 
