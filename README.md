@@ -1,4 +1,4 @@
-# Welcome to C0D1NG 🥳
+# Welcome to C0DING 🥳
 C0D1NG is an organisation that helps everyone to contribute on open source projects.
 
 ***
