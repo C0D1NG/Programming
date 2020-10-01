@@ -1,13 +1,18 @@
 #!/usr/bin/perl
 
-sub EvenOrOdd {
+use strict;
+use warnings;
 
+sub EvenOrOdd {
 	if($_[0] % 2 == 0) {
-		print($_[0] . " is Even\n");
+		return "even";
 	} else {
-		print($_[0] . " is Odd\n");
+		return "odd";
 	}
 }
 
-EvenOrOdd(4);
-EvenOrOdd(3);
+print "Enter a number: ";
+my $input = <STDIN>;
+chomp $input;
+
+print $input . " is " . EvenOrOdd($input) . "\n";
