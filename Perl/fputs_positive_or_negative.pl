@@ -4,11 +4,10 @@ use strict;
 use warnings;
 
 sub PositiveOrNegative {
-	my $num = $_[0];
-	if($num >= 0) {
-		print $num . " is positive\n";
+	if($_[0] >= 0) {
+		return "positive";
 	} else {
-		print $num . " is negative\n";
+		return "negative"
 	}
 }
 
@@ -16,4 +15,4 @@ print "Enter a number: ";
 my $input = <STDIN>;
 chomp $input;
 
-PositiveOrNegative $input;
+print $input . " is " . PositiveOrNegative($input) . "\n";
