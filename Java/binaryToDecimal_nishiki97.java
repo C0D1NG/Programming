@@ -5,6 +5,7 @@ public class binaryToDecimal_nishiki97 {
         
         /**
          * @toDecimal(number) - calling the inclass function in the main 
+         * @param number - store user input value
          */
 
         Scanner scanner = new Scanner(System.in);
