@@ -5,7 +5,6 @@ int main()
     printf("Enter a three-digit integer: ");
     scanf("%d", &num);
     originalNum = num;
-
     while (originalNum != 0)
     {
         // remainder contains the last digit
