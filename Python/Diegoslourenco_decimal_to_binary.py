@@ -17,8 +17,6 @@ def convertDecimalToBinary(decimal):
     else:
         binary = '.'
         
-
-
     while (integerPart != 0):
         if (integerPart == 1):
             binary = '1' + binary
@@ -50,7 +48,6 @@ def convertDecimalToBinary(decimal):
             else:
                 repeat = repeat[1:]
             
-
     return binary
 
 main()
