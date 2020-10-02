@@ -1,3 +1,5 @@
+// written by Janhavi Jain (github: Janhavi404)
+
 #include <iostream> 
 using namespace std; 
   
@@ -26,4 +28,3 @@ int main()
     return 0; 
 } 
 
-// written by Janhavi Jain (github: Janhavi404)
