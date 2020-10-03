@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     ll num, sum=0;
-    cout<<"Enter a number to check if it is a 'Strong Number': ";
+    cout<<"Enter a number to check if it is a 'Perfect Number': ";
     cin>>num;
 
     if( num<=0 )
