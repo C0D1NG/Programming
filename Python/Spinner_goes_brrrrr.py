@@ -1,0 +1,2 @@
+# make some loading spinners
+exec("""\nimport time,sys\nwhile True:\n	bruh="\\|/-\\|/-"\n	for l in bruh:\n		sys.stdout.write(l)\n		sys.stdout.flush()\n		sys.stdout.write('\\b')\n		time.sleep(0.2)\n""")
