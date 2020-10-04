@@ -1,0 +1,15 @@
+name: Inclusive Organization
+on:
+  push:
+    branches: master
+jobs:
+  invite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invite contributor to the organization
+        uses: lekterable/inclusive-organization-action@v1.1.0
+        with:
+          organization: C0D1NG
+          comment: "Welcome to the world of C0D1NG 🚀"
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
