@@ -1,2 +1,10 @@
 # make some loading spinners
-exec("""\nimport time,sys\nwhile True:\n	bruh="\\|/-\\|/-"\n	for l in bruh:\n		sys.stdout.write(l)\n		sys.stdout.flush()\n		sys.stdout.write('\\b')\n		time.sleep(0.2)\n""")
+import time,sys
+while True:
+	bruh="\|/-\|/-"
+	for l in bruh:
+		sys.stdout.write(l)
+		sys.stdout.flush()
+		sys.stdout.write('\b')
+		time.sleep(0.2)
+    
