@@ -1,14 +1,17 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+
 sub BinaryToDecimal {
 
-	$num = $_[0];
-	$decimal = 0;
-	$base = 1;
+	my $num = $_[0];
+	my $decimal = 0;
+	my $base = 1;
 
-	$temp = $num;
+	my $temp = $num;
 	while($temp > 0) {
-		$last_digit = $temp % 10;
+		my $last_digit = $temp % 10;
 		$temp = $temp / 10;
 
 		$decimal += $last_digit * $base;
@@ -18,4 +21,8 @@ sub BinaryToDecimal {
 	return $decimal;
 }
 
-print BinaryToDecimal(10101001);
+print "Enter a binary number: ";
+my $input = <STDIN>;
+chomp $input;
+
+print $input . " in decimal is " . BinaryToDecimal($input) . "\n";
