@@ -20,5 +20,9 @@ int main(){
         cout<<binary[j];
     }
 
+
+
+    cout<<endl;
+
     return 0;
 }
