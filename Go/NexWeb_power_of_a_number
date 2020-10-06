@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var exponent, base int
+	fmt.Print("Enter Base:")
+	fmt.Scanln(&base)
+	fmt.Print("Enter exponent:")
+	fmt.Scanln(&exponent)
+
+	output := 1
+	for exponent != 0 {
+		output *= base
+		exponent -= 1
+	}
+	fmt.Printf("Output of power calculation is %d", output)
+
+}
