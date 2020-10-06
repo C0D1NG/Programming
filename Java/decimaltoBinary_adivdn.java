@@ -19,6 +19,6 @@ public class code{
         for(int j = i -1; j >=0; j--){
             System.out.print(binary[j]);
         }
-        System.out.println("");
+        System.out.println();
     }
 }
