@@ -6,7 +6,7 @@ public class DecimalToBinary_djl218 {
     int bin_num[] = new int[100];
     Scanner scan = new Scanner(System.in);
 		
-    System.out.print("Input a Decimal Number : ");
+    System.out.print("Input a Decimal Number: ");
     dec_num = scan.nextInt();
 		
     quot = dec_num;
