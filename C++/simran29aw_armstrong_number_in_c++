@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int n,rem,s=0,a;
+cin>>n;
+a=n;
+while(n!=0)
+{
+rem=n%10;
+s=s+(rem*rem*rem);
+n=n/10;
+}
+if(s==a)
+cout<<"Number is armstrong";
+else
+cout<<"not an armstrong number";
+return 0;
+}
