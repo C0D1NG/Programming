@@ -2,5 +2,5 @@
 
 Factorial = function (Num){
   if (Num == 1){return (Num)}
-  return (Num * Fact_Rec(Num-1))
+  return (Num * Factorial(Num-1))
 }
