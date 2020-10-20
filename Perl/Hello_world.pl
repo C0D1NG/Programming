@@ -1,4 +1,4 @@
 use warnings;
 use strict;
 
-print("Hello world");
+print "Hello world";
