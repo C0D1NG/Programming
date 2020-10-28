@@ -4,11 +4,11 @@ class Calculator
     public static void main (String args[])
     {
         Scanner in=new Scanner(System.in);
-        int res = 0;
+        float res = 0;
         System.out.println(" Enter the first No." );
-        int a = in.nextInt();
+        float a = in.nextFloat();
         System.out.println(" Enter the Second No." );
-        int b = in.nextInt();
+        float b = in.nextFloat();
         System.out.println(" Enter the Operator." );
         in.nextLine();
         String opp =in.nextLine();
@@ -24,6 +24,8 @@ class Calculator
             case '*':
             res =a*b;
             break;
+            case '/':
+            res = a/b;
             default :
             System.out.println("Invalid operation");
         }
