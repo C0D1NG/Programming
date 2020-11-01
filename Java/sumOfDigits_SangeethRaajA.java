@@ -8,8 +8,7 @@
 import java.io.*;
 import java.util.*; 
 
-public class sumOfNumbers
-{ 
+public class sumOfDigits_SangeethRaajA{ 
 	static class FastReader 
 	{ 
 		BufferedReader br; 
