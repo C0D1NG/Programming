@@ -1,0 +1,1 @@
+M, N = input('Enter 2 integers separated by space M and N:').split(' ')
