@@ -1,15 +1,15 @@
 # Welcome to C0D1NG 🥳
 
-C0D1NG is an organization that helps everyone to contribute on open source projects.
+C0D1NG is an organization that helps everyone to contribute to open source projects.
 
 ---
 
 ### This is an open-source repository that collects programming problems.
 
-Anyone can work on any issue and you can also create your own issues,
-So start working on issue when you are done then request a pull create and I'll merge into main codebase.
+Anyone can work on any issue and you can also create your issues,
+So start working on the issue when you are done then request a pull create.
 
-### Solve as many problems as you can and create pull request for every individual problem and 🌟 this repo for future reference.
+### Solve as many problems as you can and create a pull request for every individual problem and 🌟 this repo for future reference.
 
 ---
 
@@ -17,7 +17,7 @@ So start working on issue when you are done then request a pull create and I'll 
 
 # 👉 Fork this repository
 
-Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+Fork this repository by clicking on the fork button at the top of this page. This will create a copy of this repository in your account.
 
 # 👉 Clone the repository
 
@@ -33,7 +33,7 @@ Make necessary changes and commit those changes
 
 # 👉 Push changes to GitHub
 
-Finally push your local repository to remote repository
+Finally push your local repository to the remote repository
 
 # 👉 Compare & Submit a Pull Request
 
@@ -41,7 +41,7 @@ We're happy to merge valid pull requests to this repository!
 
 ---
 
-# Hurray! Now you are a part of open source community 🚀🚀🚀
+# Hurray! Now you are a part of the open source community 🚀🚀🚀
 
 ## Join our Community 👉🏻 [C0D1NG](https://t.me/C0D1NG)
 
