@@ -15,3 +15,15 @@ public class StarPattern07 {
 	}
 }
 }
+
+/* 
+
+The output for the above program.
+
+    *
+   ***
+  *****
+ *******
+*********
+
+*/

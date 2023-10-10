@@ -14,3 +14,15 @@ public class StarPattern04 {
 	}
 
 }
+
+/* 
+
+The output for the above program.
+
+ *****
+  ****
+   ***
+    **
+     *
+
+*/

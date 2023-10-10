@@ -24,3 +24,18 @@ public class StarPattern05 {
 	
 	}
 }
+
+/* 
+
+The output for the above program.
+
+*****
+ ****
+  ***
+   **
+    *
+
+The difference between StarPattern4 and StarPattern5 is the beginning white
+space in the first line that StarPattern4 holds which StarPattern5 avoids.
+
+*/
