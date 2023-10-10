@@ -25,3 +25,15 @@ public class NumberPattern08 {
 		}
 	}
  }
+
+ /*
+
+The output of the above program
+
+1 2 3 
+6 5 4 
+7 8 9 
+12 11 10 
+13 14 15
+
+ */
