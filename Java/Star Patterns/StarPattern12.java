@@ -15,3 +15,15 @@ public class StarPattern12 {
 	}
 }
 }
+
+/* 
+
+The output for the above program.
+
+ *       *
+  *     *
+   *   *
+    * *
+     *
+
+*/
