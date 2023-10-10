@@ -9,3 +9,16 @@ public class NumberPattern04 {
 		}
 	}
 }
+
+/*
+
+The output of the above program
+
+1 
+2 1 
+3 2 1 
+4 3 2 1 
+5 4 3 2 1
+
+ */
+

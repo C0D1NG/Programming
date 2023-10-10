@@ -13,3 +13,15 @@ public class NumberPattern10 {
 		}
 	}
 }
+
+/*
+
+The output of the above program
+
+*2345
+1*345
+12*45
+123*5
+1234*
+
+ */
