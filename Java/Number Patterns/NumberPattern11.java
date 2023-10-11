@@ -43,3 +43,15 @@ public class NumberPattern11 {
 			}
 		}
 }
+
+/*
+
+The output of the above program
+
+ 1       1
+  2     2 
+   3   3  
+    4 4   
+     * 
+
+ */

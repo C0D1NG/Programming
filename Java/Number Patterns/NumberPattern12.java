@@ -16,3 +16,15 @@ public class NumberPattern12 {
 	}
 
 }
+
+/*
+
+The output of the above program
+
+1 6 10 13 15 
+2 7 11 14 
+3 8 12 
+4 9 
+5
+
+ */
