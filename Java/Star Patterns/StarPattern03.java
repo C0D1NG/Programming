@@ -1,4 +1,4 @@
-public class StarPattern3 {
+public class StarPattern03 {
 
 	public static void main(String[] args) {
 		for(int i=1;i<=5;i++) 
@@ -15,4 +15,19 @@ public class StarPattern3 {
 	}
 }
 }
+
+/* 
+
+The output for the above program.
+
+    *
+   **
+  ***
+ ****
+*****
+
+
+*/
+
+
  
