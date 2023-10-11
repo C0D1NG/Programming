@@ -10,3 +10,15 @@ public class NumberPattern02 {
 		}
 	}
 }
+
+/*
+
+The output of the above program
+
+1
+22
+333
+4444
+55555
+
+ */

@@ -12,3 +12,15 @@ public class NumberPattern05 {
 	  }
 	}
 }
+
+/*
+
+The output of the above program
+
+1 
+1 2 1 
+1 2 3 2 1 
+1 2 3 4 3 2 1 
+1 2 3 4 5 4 3 2 1 
+
+ */

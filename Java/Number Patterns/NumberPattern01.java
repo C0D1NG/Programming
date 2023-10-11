@@ -10,3 +10,15 @@ public class NumberPattern01 {
 		}
 	}
 }
+
+/*
+
+The output of the above program
+
+1
+12
+123
+1234
+12345
+
+ */
